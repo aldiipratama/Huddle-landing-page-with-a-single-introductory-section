@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+
+    <link rel="stylesheet" href="output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[url('./images/bg-desktop.svg')] bg-violet bg-no-repeat">
+    <div class="container p-10 flex flex-col gap-10 lg:flex-row lg:items-center lg:relative lg:justify-center">
+      <div class="lg:w-1/2">
+        <img src="./images/logo.svg" alt="logo" class="w-52" />
+        <div class="mt-10">
+          <img src="./images/illustration-mockups.svg" alt="mockup" />
+        </div>
+      </div>
+
+      <div class="text-white flex flex-col items-center lg:items-start">
+        <h1 class="text-center font-bold text-2xl lg:text-4xl max-w-[290px] lg:max-w-md lg:text-start">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="text-center my-5 max-w-[250px] lg:max-w-sm text-sm lg:text-start">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="bg-white text-violet py-3 px-5 rounded-full w-52 shadow-md">
+          Register
+        </button>
+        <div class="text-white flex gap-5 justify-center mt-10 lg:absolute lg:bottom-0 lg:right-0">
+          <a href="#" class="rounded-full border border-white py-[10px] px-5">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="rounded-full border border-white py-[10px] px-4">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" class="rounded-full border border-white py-[10px] px-4">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center mt-10">
+      <p class="text-white">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          rel="noopener"
+          target="_blank"
+          class="relative inline-block before:absolute before:block before:-skew-y-3 before:-inset-1 before:bg-blue-500 ms-1"
+          ><span class="relative text-white">Frontend Mentor</span></a
+        >. Coded with ♥ by
+        <a
+          href="https://instagram.com"
+          class="relative inline-block before:absolute before:block before:-skew-y-3 before:-inset-1 before:bg-blue-500 ms-1"
+          ><span class="relative text-white">aldi pratama</span></a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
